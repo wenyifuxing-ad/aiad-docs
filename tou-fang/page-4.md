@@ -4,6 +4,3 @@
 
 分隔符
 
-
-
-![](<../.gitbook/assets/image (1).png>)
