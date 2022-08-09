@@ -8,4 +8,4 @@ layout: editorial
 
 大幅度发地方
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (5).png>)
