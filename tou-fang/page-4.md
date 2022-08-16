@@ -1,12 +1,9 @@
 # Page 4
 
-是CVC&#x20;
+这个是image标签
 
-分隔符
+![](<../.gitbook/assets/image (5).png>)
 
-{% file src="../.gitbook/assets/image (3).png" %}
-
-kk
+这个是粘贴的
 
 ![](<../.gitbook/assets/image (13).png>)
-
