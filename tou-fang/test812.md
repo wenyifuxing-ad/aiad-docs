@@ -16,4 +16,4 @@ description: 表格和图片
 
 
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (2).png>)

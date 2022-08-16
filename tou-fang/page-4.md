@@ -2,7 +2,9 @@
 
 飞书截图
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (11).png>)
+
+dd![](../.gitbook/assets/image.png)
 
 这个是image标签
 
@@ -10,4 +12,4 @@
 
 这个是粘贴的
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (2).png>)
