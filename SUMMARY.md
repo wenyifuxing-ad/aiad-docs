@@ -10,3 +10,4 @@
     * [JavaScript SDK](ji-shu-zhi-nan/ke-hu-duan-sdk/javascript-sdk.md)
   * [服务端SDK](ji-shu-zhi-nan/fu-wu-duan-sdk/README.md)
     * [Java SDK](ji-shu-zhi-nan/fu-wu-duan-sdk/java-sdk.md)
+    * [Go SDK](ji-shu-zhi-nan/fu-wu-duan-sdk/go-sdk.md)
