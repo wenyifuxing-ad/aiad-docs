@@ -36,7 +36,7 @@ public class HttpDataSdkTest {
         payEvent.setLogin_id("test_user_id"); //用户ID
         
         for(int i = 0; i < 100; i++) {
-        	dataSdk.track("distinctId", payEvent);
+        	dataSdk.track("test_user_id", payEvent);
         }
         
         dataSdk.flush(); //强制flush 发送数据,可以不用调用
