@@ -4,7 +4,13 @@
 
 IOS 采用神策SDK上报数据。
 
-{% embed url="https://manual.sensorsdata.cn/sa/latest/sdk-ios-7538614.html" %}
+（[https://manual.sensorsdata.cn/sa/latest/sdk-ios-7538614.html](https://manual.sensorsdata.cn/sa/latest/sdk-ios-7538614.html)
+
+
+
+具体上报事件，请查看 [数据上报规范](../shu-ju-shang-bao-gui-fan.md)
+
+
 
 
 
