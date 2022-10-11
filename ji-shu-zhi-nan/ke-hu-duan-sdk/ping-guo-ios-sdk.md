@@ -44,3 +44,17 @@ BOOL isAddedToFavorites = NO;
 											  @"ProductCatalog" : productCatalog,
 ```
 
+
+
+### 上报ASA苹果信息
+
+事件ID： EVENT\_MARKET\_DOWNLOAD\_STORE\_RESULT
+
+#### 事件属性:
+
+asa\_info: 字符串，苹果asa返回归因json信息，分IOS14.3之前和14.3以后
+
+#### 如何获得ASA信息
+
+[文档链接](https://juejin.cn/post/6978116612326948894)
+
