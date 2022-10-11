@@ -54,7 +54,7 @@ BOOL isAddedToFavorites = NO;
 
 asa\_info: 字符串，苹果asa返回归因json信息，分IOS14.3之前和14.3以后
 
-#### 如何获得ASA信息
+#### [如何获得ASA信息](https://juejin.cn/post/6978116612326948894)
 
-[文档链接](https://juejin.cn/post/6978116612326948894)
+
 
