@@ -28,18 +28,18 @@ public class HttpDataSdkTest {
     public void testSendPay() throws Exception {
 
         PayEvent payEvent = new PayEvent();
-        payEvent.setProduct_id("9999901");
+        payEvent.setProduct_id(""); //应用ID，后台分配
         payEvent.setEventTime(System.currentTimeMillis());
-        payEvent.setOrderId(""+System.currentTimeMillis());
-        payEvent.setAmount(100 * 10);
-        payEvent.setAppDeviceId("test_device_id");
-        payEvent.setUserId("test_user_id");
+        payEvent.setOrderId("order_01"); //支付定单ID，排重使用
+        payEvent.setAmount(100 * 10L); //金额,单位:分
+        payEvent.setApp_device_id("test_device_id"); //设备ID
+        payEvent.setLogin_id("test_user_id"); //用户ID
         
         for(int i = 0; i < 100; i++) {
-        	dataSdk.track("some_distinctId", payEvent);
-        	dataSdk.flush();
+        	dataSdk.track("distinctId", payEvent);
         }
         
+        dataSdk.flush(); //强制flush 发送数据,可以不用调用
     }
 }
 ```
