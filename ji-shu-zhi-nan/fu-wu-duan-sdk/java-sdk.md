@@ -28,7 +28,7 @@ public class HttpDataSdkTest {
     public void testSendPay() throws Exception {
 
         PayEvent payEvent = new PayEvent();
-        payEvent.setProduct_id(""); //应用ID，后台分配
+        payEvent.setProduct_id(""); //应用ID，后台分配，必填字段
         payEvent.setEventTime(System.currentTimeMillis());
         payEvent.setOrderId("order_01"); //支付定单ID，排重使用
         payEvent.setAmount(100 * 10L); //金额,单位:分
@@ -39,7 +39,7 @@ public class HttpDataSdkTest {
         	dataSdk.track(payEvent.getLogin_id(), payEvent);
         }
         
-        dataSdk.flush(); //强制flush 发送数据,可以不用调用
+        dataSdk.flush(); //强制flush 发送数据,可以不用调用，会自动flush
     }
 }
 ```
