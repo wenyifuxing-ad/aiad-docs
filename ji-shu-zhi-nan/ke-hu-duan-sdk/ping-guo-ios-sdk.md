@@ -60,7 +60,20 @@ BOOL isAddedToFavorites = NO;
 
 asa\_info: 字符串，苹果asa返回归因json信息，分IOS14.3之前和14.3以后
 
+asa\_info字符串预览
 
+```json
+"asa_info":{
+	"keywordId":12323222,
+	"conversionType":"Download",
+	"creativeSetId":111234567890,
+	"orgId":111234567890,
+	"campaignId":111234567890,
+	"adGroupId":111234567890,
+	"countryOrRegion":"US",
+	"attribution":true
+},
+```
 
 
 
