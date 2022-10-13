@@ -45,7 +45,7 @@ UInt64 productId = 123456;
 NSString *productCatalog = @"Laptop Computer";
 BOOL isAddedToFavorites = NO;
 
-[[SensorsAnalyticsSDK sharedInstance] track:@"BuyProduct"
+[[SensorsAnalyticsSDK sharedInstance] track:@"DemoBuyProduct"
 							 withProperties:@{@"ProductID" : [NSNumber numberWithUnsignedLong:productId],
 											  @"ProductCatalog" : productCatalog,
 ```
@@ -60,7 +60,25 @@ BOOL isAddedToFavorites = NO;
 
 asa\_info: 字符串，苹果asa返回归因json信息，分IOS14.3之前和14.3以后
 
+
+
+
+
+#### 获取步骤描述：
+
+1. 程序启动后调用ASA归因接口获取归因数据
+2. 调用归因数据的接口以14.3为分界点，分别从iAd.framework与AdServices获取
+3. 获取的数据通过数据SDK上报，获取的JSON需转为字符串
+
+
+
+#### 相关文档：
+
 #### [如何获得ASA信息](https://juejin.cn/post/6978116612326948894)
 
+苹果官方文档： [https://developer.apple.com/documentation/iad/setting\_up\_apple\_search\_ads\_attribution#overview](https://developer.apple.com/documentation/iad/setting\_up\_apple\_search\_ads\_attribution#overview)
 
+
+
+####
 
